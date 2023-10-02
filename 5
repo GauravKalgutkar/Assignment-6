@@ -1,0 +1,14 @@
+numbers = []
+while True:
+    num = int(input("Enter an integer (0 to finish): "))
+    if num == 0:
+        break
+    numbers.append(num)
+
+if not numbers:
+    print("No numbers entered.")
+else:
+    total = sum(numbers)
+    average = total / len(numbers)
+    print("Sum:", total)
+    print("Average:", average)
