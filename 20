@@ -1,0 +1,8 @@
+mixed_list = [1, 'apple', 2.5, 'banana', 3, 'cherry', 4.0]
+integers = [item for item in mixed_list if isinstance(item, int)]
+strings = [item for item in mixed_list if isinstance(item, str)]
+floats = [item for item in mixed_list if isinstance(item, float)]
+
+print("Integers:", integers)
+print("Strings:", strings)
+print("Floats:", floats)
